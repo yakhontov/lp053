@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.general.xcl" --backend -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Al\Documents\Projects\lp053\EWARM\settings\l053.l053.general.xcl" --backend -f "C:\Users\Al\Documents\Projects\lp053\EWARM\settings\l053.l053.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Al\Documents\Projects\lp053\EWARM\settings\l053.l053.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Al\Documents\Projects\lp053\EWARM\settings\l053.l053.driver.xcl" 
 }
