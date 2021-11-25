@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Al\Documents\Projects\L053\l053\EWARM\settings\l053.l053.general.xcl" --backend -f "C:\Users\Al\Documents\Projects\L053\l053\EWARM\settings\l053.l053.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.general.xcl" --backend -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Al\Documents\Projects\L053\l053\EWARM\settings\l053.l053.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Al\Documents\Projects\L053\l053\EWARM\settings\l053.l053.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Alex\Documents\Projects\lp053\EWARM\settings\l053.l053.driver.xcl" 
 
 @echo off 
 :end

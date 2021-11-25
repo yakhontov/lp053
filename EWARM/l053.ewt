@@ -1440,7 +1440,16 @@
                 <name>$PROJ_DIR$\..\Src\stm32l0xx_hal_msp.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\Src\stm32l0xx_hal_timebase_tim.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\Src\stm32l0xx_it.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Src\tim.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Src\timirq.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Src\usart.c</name>
